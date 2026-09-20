@@ -150,12 +150,13 @@
 # print(greater_number(numbers))
 
 
-cities = {"Peshawar", "Lahore", "Islamabad", "Karachi", "Quetta"}
-def city_count(cities):
-    count = 0
-    for city in cities:
-        if "a" in city.lower():
-            count += 1
-    return count
+# cities = {"Peshawar", "Lahore", "Islamabad", "Karachi", "Quetta"}
+# def city_count(cities):
+#     count = 0
+#     for city in cities:
+#         if "a" in city.lower():
+#             count += 1
+#     return count
 
-print(city_count(cities))
+# print(city_count(cities))
+
