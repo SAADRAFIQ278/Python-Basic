@@ -61,24 +61,24 @@
 #     print("Invalid Number!")
 
 
-try:
-    name = input("Enter your name : ")
-    marks = int(input("Enter your marks : "))
+# try:
+#     name = input("Enter your name : ")
+#     marks = int(input("Enter your marks : "))
     
-    if marks < 0 or marks > 100:
-        print("Marks must be between 0 and 100!")
+#     if marks < 0 or marks > 100:
+#         print("Marks must be between 0 and 100!")
 
-    else:
-        if 90 <= marks <= 100:
-         print(name,"Grade A!")
-        elif 80 <= marks <= 89:
-         print(name,"got Grade B!")
-        elif 70 <= marks <= 79:
-         print(name,"got Grade C!")
-        elif 60 <= marks <= 69:
-         print(name,"got Grade D!")
-        else:
-         print(name,"got Failed!")
+#     else:
+#         if 90 <= marks <= 100:
+#          print(name,"Grade A!")
+#         elif 80 <= marks <= 89:
+#          print(name,"got Grade B!")
+#         elif 70 <= marks <= 79:
+#          print(name,"got Grade C!")
+#         elif 60 <= marks <= 69:
+#          print(name,"got Grade D!")
+#         else:
+#          print(name,"got Failed!")
         
-except:
-    print("Invalid Input!")
+# except:
+#     print("Invalid Input!")
