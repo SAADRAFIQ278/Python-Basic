@@ -25,8 +25,36 @@
 # with open("student.txt","a") as file:
 #     file.write("Huzaifa\n")
 
+# with open("student.txt","r") as file:
+#     data = file.read()
+#     data = data.replace("Ahmad","Bilal")
+# with open("student.txt","w") as file:
+#     file.write(data)
+
+
+# with open("student.txt","r") as file:
+#     first = file.read(4)
+#     print("First:",first)
+
+#     print("Position:",file.tell())
+#     file.seek(0)
+
+#     second = file.read(3)
+#     print("Second:",second)
+
+
+with open("student.txt", "a") as file:
+    file.write("Huzaifa\n")
+
 with open("student.txt","r") as file:
-    data = file.read()
-    data = data.replace("Ahmad","Bilal")
+     data = file.read()
+     data = data.replace("Ahmad","Bilal")
+         
 with open("student.txt","w") as file:
-    file.write(data)
+        file.write(data)
+
+with open("student.txt","r") as file:
+      students = file.readlines()
+
+for student in students:
+      print(student.strip())         
