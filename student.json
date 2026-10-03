@@ -1,6 +1,16 @@
 {
-    "name": "Saad",
-    "age": 20,
-    "course": "Python",
-    "semester": "3rd"
+    "students": [
+        {
+            "name": "Saad",
+            "age": 20
+        },
+        {
+            "name": "Ali",
+            "age": 19
+        },
+        {
+            "name": "Ahmad",
+            "age": 21
+        }
+    ]
 }
